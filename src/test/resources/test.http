@@ -1,0 +1,11 @@
+### unsecured
+GET {{baseURI}}/unsecured
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.QAwIbPqAaptNk9lwjO4BiYa_XjsYfm20lPhqJePoz-o
+
+### anonymous
+GET {{baseURI}}/anonymous
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.QAwIbPqAaptNk9lwjO4BiYa_XjsYfm20lPhqJePoz-o
+
+### authenticated
+GET {{baseURI}}/authenticated
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.QAwIbPqAaptNk9lwjO4BiYa_XjsYfm20lPhqJePoz-o

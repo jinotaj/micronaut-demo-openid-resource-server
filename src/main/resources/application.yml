@@ -1,0 +1,18 @@
+micronaut:
+  application:
+    name: micronaut-demo-openid-resource-server
+  security:
+    token:
+      jwt:
+        enabled: true
+        cookie:
+          enabled: false
+        signatures:
+          secret:
+            test:
+              secret: testtesttesttesttesttesttesttest
+              jws-algorithm: HS256
+netty:
+  default:
+    allocator:
+      max-order: 3
